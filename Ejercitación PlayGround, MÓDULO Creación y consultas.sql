@@ -1,3 +1,5 @@
+USE musimundos;
+
 #			INSERTAR, ACTUALIZAR, ELIMINAR
 # DAB 2020 - SQL II - Insert, Update, Delete #1 - Nuevos géneros de música
 INSERT INTO GENEROS (ID,NOMBRE)
@@ -43,7 +45,7 @@ LIMIT 3;
 # DAB 2020 - SQL I - Limit y Offset #2 - Paginación
 SELECT NOMBRE, COMPOSITOR
 FROM canciones
-ORDER BY NOMBRE
+ORDER BY NOMBRE 
 LIMIT 5
 OFFSET 5;
 
